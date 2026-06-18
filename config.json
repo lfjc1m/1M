@@ -1,14 +1,14 @@
 {
-  "duration": 43,
+  "duration": 120,
   "correctMark": 1,
   "wrongMark": 0,
   "activeForForms": [
-    "BOTANY",
+    "MATHS_A",
     "PHYSICS"
   ],
   "subjects": [
     {
-      "name": "BOTANY",
+      "name": "MATHS_A",
       "questions": 30,
       "numerical": 0
     },
