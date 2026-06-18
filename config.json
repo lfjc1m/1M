@@ -1,0 +1,21 @@
+{
+  "duration": 43,
+  "correctMark": 1,
+  "wrongMark": 0,
+  "activeForForms": [
+    "BOTANY",
+    "PHYSICS"
+  ],
+  "subjects": [
+    {
+      "name": "BOTANY",
+      "questions": 30,
+      "numerical": 0
+    },
+    {
+      "name": "PHYSICS",
+      "questions": 30,
+      "numerical": 0
+    }
+  ]
+}
