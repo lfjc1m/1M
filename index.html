@@ -1733,8 +1733,8 @@ let EXAM_SETUP = {
     wrongMark: 0
 };
     
- let TOTAL_QUESTIONS = 0;   
-
+// Calculate TOTAL_QUESTIONS immediately
+let TOTAL_QUESTIONS = 0;   
 let currentStart = 1;
 EXAM_SETUP.subjects.forEach(subject => {
     subject.start = currentStart;
@@ -1743,7 +1743,7 @@ EXAM_SETUP.subjects.forEach(subject => {
     subject.numericalStart = subject.end - subject.numerical + 1;
     currentStart = subject.end + 1;
 });
-
+TOTAL_QUESTIONS = currentStart - 1; // This sets the total
 const EXAM_DURATION_MINUTES = EXAM_SETUP.duration;
 const ACTIVE_EXAM_SUBJECTS = EXAM_SETUP.activeForForms;
 
